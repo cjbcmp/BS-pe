@@ -17,7 +17,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run script
-      run: python "第一步BS市盈率1.py"
+      run: python "first step BS pe.py"
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:

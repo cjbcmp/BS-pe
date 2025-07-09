@@ -26,9 +26,3 @@ jobs:
         with:
           name: pe-filtered-stocks
           path: A股低市盈率股票.xlsx
-      
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: stock-data
-        path: stock_data.xlsx

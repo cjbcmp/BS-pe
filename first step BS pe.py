@@ -117,7 +117,7 @@ def fetch_full_a_pe():
     )
     
     # 保存文件
-    filename = f"全量A股市盈率_{trade_date}_{len(pe_data)}只(0-30).xlsx"
+    filename = "pe_filtered_stocks_output.xlsx"
     df.to_excel(filename, float_format="%.2f")
     
     # 登出

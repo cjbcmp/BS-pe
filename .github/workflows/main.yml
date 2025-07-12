@@ -26,3 +26,4 @@ jobs:
         with:
           name: pe-filtered-stocks
           path: pe_filtered_stocks_output.xlsx
+          retention-days: 1
